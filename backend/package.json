@@ -4,8 +4,7 @@
   "description": "coder",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "vercel-start": "node index.js"
+    "start": "node index.js"
   },
   "author": "\\",
   "license": "ISC",
