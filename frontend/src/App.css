@@ -1,0 +1,103 @@
+/* Page center */
+.emp-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f7;
+  padding: 16px;
+}
+
+/* Card */
+.emp-card {
+  width: 360px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+/* Header */
+.emp-header {
+  height: 130px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* Profile image */
+.emp-header img,
+.emp-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background: white;
+  position: absolute;
+  bottom: -55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2563eb;
+  object-fit: cover;
+}
+
+/* Body */
+.emp-body {
+  padding: 70px 24px 24px;
+  text-align: center;
+}
+
+.emp-body h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.role {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Info */
+.emp-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #ddd;
+  color: #374151;
+}
+
+.emp-info svg {
+  color: #2563eb;
+}
+
+/* Button */
+.emp-body button {
+  margin-top: 22px;
+  padding: 8px 26px;
+  border-radius: 20px;
+  border: 1px solid #2563eb;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.emp-body button:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .emp-card {
+    width: 100%;
+  }
+}
