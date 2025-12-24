@@ -1,6 +1,6 @@
 
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://employee-management-backend-e17j.onrender.com';
 
 // 🔹 Get token header
 const getAuthHeader = () => {
