@@ -39,7 +39,7 @@ function EmpDetails() {
           <div className="emp-header">
             {profileImage ? (
               <img
-                src={`http://localhost:5000/uploads/${profileImage}`}
+                src={`https://employee-management-backend-e17j.onrender.com/uploads/${profileImage}`}
                 alt={name}
               />
             ) : (
