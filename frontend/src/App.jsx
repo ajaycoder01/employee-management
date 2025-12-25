@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/index.html" element={<Navigate to="/" replace />} />
        
-        <Route path="/" element={<Navigate to="/login" />} />
+      <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
 
