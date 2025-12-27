@@ -102,6 +102,25 @@ cd frontend
 npm install
 npm run dev
 ```
+📸 Screenshots ---
+
+## 🔑 Authentication (Login & Signup)
+<p align="center">
+  <img src="screenshot/login.png" width="40%" />
+  <img src="screenshot/signup.png" width="40%" />
+</p>
+
+## 📊 Dashboards (Admin & User)
+<p align="center">
+  <img src="screenshot/admin-dashboard.png" width="40%" />
+  <img src="screenshot/user-dashboard.png" width="40%" />
+</p>
+
+## 📝 Employee Management (Add & Update)
+<p align="center">
+  <img src="screenshot/add-emp.png" width="40%" />
+  <img src="screenshot/update-emp.png" width="40%" />
+</p>
 
 ---
 
