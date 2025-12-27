@@ -93,6 +93,7 @@ function EmpManagementApp() {
     }, [])
 
     const handleAddEmp = () => {
+        setUpdateEmpObj(null); 
         setShowModal(true)
     }
 
